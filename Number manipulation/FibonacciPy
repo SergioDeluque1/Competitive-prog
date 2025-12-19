@@ -1,0 +1,1 @@
+def fibonacci(n):    fib_sequence = [0, 1]    for i in range(2, n):        fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])    return fib_sequence# Get the first 100 Fibonacci numbersfib_100 = fibonacci(100)# Print the Fibonacci numbersprint("First 100 Fibonacci numbers:")print(fib_100)
